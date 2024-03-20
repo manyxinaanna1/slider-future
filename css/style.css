@@ -1,0 +1,86 @@
+.page-main {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.sliders {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+}
+.slider {
+    width: 960px;
+    min-height: 560px;
+}
+
+.slider-1 {
+    background: url('../img/slider-1-bg.jpg');
+    background-repeat: no-repeat;
+}
+.slider-2 {
+    background: url('../img/slider-2-bg.jpg');
+    background-repeat: no-repeat;
+}
+.slider-3 {
+    background: url('../img/slider-3-bg.jpg');
+    background-repeat: no-repeat;
+}
+.slider-title {
+    display: block;
+    position: absolute;
+    width: 101px;
+    
+    top: 20px;
+    left: 429px;
+}
+.slider-image {
+    display: block;
+    margin: 0 auto;
+    padding-top: 154px;
+    padding-bottom: 24px
+}
+.slider-paragraph {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+.slider-paragraph b {
+    font-weight: 800;
+}
+.slider-button {
+    margin: 0 auto;
+    display: block;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 8px 32px;
+}
+.button {
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+}
+.button-previos {
+    background: url('../img/arrow-previos.svg');
+    background-repeat: no-repeat;
+}
+.button-next {
+    background: url('../img/arrow-next.svg');
+    background-repeat: no-repeat;
+    
+}
